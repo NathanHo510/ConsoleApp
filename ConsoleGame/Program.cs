@@ -11,7 +11,8 @@ namespace ConsoleGame
 
         static void Main(string[] args)
         {
-            ProgramUI ui = new ProgramUI();
+            ColorsConsole console = new ColorsConsole();           //RegularConsole console = new RegularConsole();
+            ProgramUI ui = new ProgramUI(console);
             ui.Welcome();
 
             // Name ToHit/BonusHit DamageRoll/Multiplier Health

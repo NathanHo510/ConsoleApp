@@ -51,7 +51,7 @@ namespace ConsoleGame
         public int ToHit => 4;
         public int MaxDamage => 5;
         public int Defense => 11;
-        public int MaxHealth => 59;
+        public int MaxHealth => 35;
         public int CurrentHealth => MaxHealth;
     }
 }

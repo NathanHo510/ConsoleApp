@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColorsConsole.cs" />
     <Compile Include="Combat.cs" />
     <Compile Include="CreatureClasses.cs" />
     <Compile Include="ICreatures.cs" />
